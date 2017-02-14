@@ -197,7 +197,7 @@ const int ZX_CODE93_ASTERISK_ENCODING = 0x15E;
   return pattern;
 }
 
-- (unichar)patternToChar:(int)pattern {
+- (char)patternToChar:(int)pattern {
   for (int i = 0; i < sizeof(ZX_CODE93_CHARACTER_ENCODINGS) / sizeof(int); i++) {
     if (ZX_CODE93_CHARACTER_ENCODINGS[i] == pattern) {
       return ZX_CODE93_ALPHABET[i];

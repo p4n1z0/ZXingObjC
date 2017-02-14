@@ -124,7 +124,7 @@ const int ZX_BITS_SET_IN_HALF_BYTE[] = {0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3
 }
 
 - (NSUInteger)hash {
-  return (self.errorCorrectionLevel.ordinal << 3) | (int)self.dataMask;
+  return (NSUInteger)((self.errorCorrectionLevel.ordinal << 3) | (int)self.dataMask);
 }
 
 - (BOOL)isEqual:(id)o {

@@ -229,7 +229,7 @@ const int ZX_GB2312_SUBSET = 1;
   return YES;
 }
 
-+ (unichar)toAlphaNumericChar:(int)value {
++ (char)toAlphaNumericChar:(int)value {
   if (value >= 45) {
     return -1;
   }

@@ -40,7 +40,7 @@
 }
 
 - (NSUInteger)hash {
-  return self.width * 32713 + self.height;
+  return (NSUInteger)self.width * 32713 + self.height;
 }
 
 - (NSString *)description {

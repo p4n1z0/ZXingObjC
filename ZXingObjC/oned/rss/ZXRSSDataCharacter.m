@@ -41,7 +41,7 @@
 }
 
 - (NSUInteger)hash {
-  return self.value ^ self.checksumPortion;
+  return (NSUInteger)self.value ^ self.checksumPortion;
 }
 
 @end

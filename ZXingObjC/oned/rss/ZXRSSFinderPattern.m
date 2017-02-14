@@ -39,7 +39,7 @@
 }
 
 - (NSUInteger)hash {
-  return self.value;
+  return (NSUInteger)self.value;
 }
 
 @end

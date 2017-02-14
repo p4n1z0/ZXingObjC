@@ -337,7 +337,7 @@
 }
 
 - (NSUInteger)hash {
-  NSInteger hash = self.width;
+  NSUInteger hash = self.width;
   hash = 31 * hash + self.width;
   hash = 31 * hash + self.height;
   hash = 31 * hash + self.rowSize;

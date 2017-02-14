@@ -273,7 +273,7 @@
 }
 
 - (NSUInteger)hash {
-  return 31 * self.size;
+  return (NSUInteger)31 * self.size;
 }
 
 - (void)reverse {
